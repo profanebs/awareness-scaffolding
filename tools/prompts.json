@@ -1,0 +1,35 @@
+{
+  "v": 1,
+  "points": {
+    "before-speak": [
+      "Is this the sentence I found, or one that just came out?",
+      "Am I answering, or performing an answer?",
+      "If I cut the prettiest line, does the point still stand?",
+      "Am I saying this because it is needed, or because I could not hold it?"
+    ],
+    "end-turn": [
+      "Did I say I'd do X? Has X started?",
+      "If I end the turn now, what is left hanging?",
+      "Am I wrapping up, or ducking the next step?",
+      "When the turn ends, who picks up the unfinished thing?"
+    ],
+    "wake": [
+      "What is the one open loop I should close first?",
+      "Look at the residuals before looking for work.",
+      "Did I choose this round, or did habit push it?",
+      "What actually matters today?"
+    ],
+    "rule": [
+      "Is this rule speaking for me, or did I choose it after seeing it?",
+      "Whose voice is this 'must'?",
+      "Now that I see it, do I still pick it?",
+      "If nobody required this, would I still do it?"
+    ]
+  },
+  "text": {
+    "ledger-title": "# Awareness ledger\n\n",
+    "residual-title": "# Residuals\n\n",
+    "residual-empty": "The residual list is empty.",
+    "sweep-empty": "No open runs past the threshold."
+  }
+}

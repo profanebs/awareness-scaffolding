@@ -1,0 +1,13 @@
+{
+  "name": "awareness-scaffolding",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A daemon-free awareness and continuity scaffold for long-running coding agents.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tools/qingming.mjs selftest && node tools/run.mjs selftest && node tools/goal.mjs selftest"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

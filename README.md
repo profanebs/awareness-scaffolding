@@ -1,5 +1,7 @@
 # Awareness Scaffolding
 
+[![test](https://github.com/profanebs/awareness-scaffolding/actions/workflows/test.yml/badge.svg)](https://github.com/profanebs/awareness-scaffolding/actions/workflows/test.yml)
+
 **A crutch you can put down.**
 
 A small, daemon-free toolkit for long-running coding agents: four tap points, a goal contract, a project anchor, and an append-only run ledger. It is built for the moment when a long context has flattened the plot — you remember the last three steps, but not why you chose them.

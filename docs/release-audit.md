@@ -58,7 +58,7 @@ The public tree was checked for local absolute paths, personal names, internal s
 
 ## Known limitations
 
-- A GitHub Actions workflow is prepared but not included in this push: the publishing token lacked the `workflow` scope. Local `npm test` passes; the workflow can be added once that scope is granted.
+- GitHub Actions runs the same self-tests on `ubuntu-latest` and `windows-latest` with Node.js 20. The first run on commit `310d842` passed both jobs. GitHub warns that `actions/checkout@v4` and `actions/setup-node@v4` still target Node.js 20 internally and are forced onto Node.js 24; this does not affect the tested Node.js version.
 - The 60-second `check --exec` timeout branch is implemented but not exercised in the self-test (it requires a deliberately hanging command).
 - Windows file symlinks (as opposed to directory junctions) were not tested because they require developer mode or elevation; directory junctions and `../` escapes are covered.
 - `goal.mjs` parses a deliberately small frontmatter subset; it is not a general YAML parser.

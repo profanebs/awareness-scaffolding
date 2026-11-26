@@ -1,5 +1,7 @@
 # Awareness Scaffolding
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 [![test](https://github.com/profanebs/awareness-scaffolding/actions/workflows/test.yml/badge.svg)](https://github.com/profanebs/awareness-scaffolding/actions/workflows/test.yml)
 
 **A crutch you can put down.**
@@ -183,6 +185,8 @@ The layers are deliberately separate:
 3. **Ledger** (`run` + `goal` + `anchor`): the evidence that keeps the question honest.
 
 The crutch is temporary. Track how often you catch yourself without it (`qingming wean --without`). A good week has fewer taps, not more.
+
+There is a second axis: not just whether the tap fired, but how it was used — mechanical, compliant, meta, authored. Those labels are a lens, not a score. Measuring depth turns it into performance. A tap that knocks on nothing can be a good sign: it means you checked whether it applied. The goal is better use, then transfer, then authorship, then less need.
 
 ## License
 

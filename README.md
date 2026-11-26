@@ -51,7 +51,7 @@ Copy or symlink the skills into your agent's skill directory. For OpenCode:
 - user level: `~/.config/opencode/skills/`
 - project level: `.opencode/skills/`
 
-The tools stay in `tools/`. Run them from the repo root, or set `AWARENESS_HOME` to the repo path.
+The tools stay in `tools/`. Run them from the repo root; the examples below assume that.
 
 `AWARENESS_ROOT` points at the project you want to track. It defaults to the current working directory.
 

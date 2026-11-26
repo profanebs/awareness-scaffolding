@@ -61,7 +61,7 @@ The ledger is `memory/ledger.md` under `AWARENESS_ROOT` (default: current direct
 
 ## Residuals
 
-Small open loops and wants go into `memory/residuals.md`:
+Small open loops and wants go into `memory/residual.md`:
 
 ```bash
 node tools/qingming.mjs residual add "check the failed deploy"

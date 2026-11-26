@@ -3,7 +3,7 @@ schema: anchor/v1
 project: Example project
 status: active
 created: 2026-01-01
-review: 2026-01-02
+review: 2026-12-31
 ---
 
 # One line

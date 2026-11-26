@@ -20,7 +20,7 @@ Each skill was checked with `only-forge-skills` `validate --public`:
 
 | Skill | Status | Description tokens | Body tokens |
 |---|---|---:|---:|
-| awareness-crutch | pass | 89 | 878 |
+| awareness-crutch | pass | 89 | 1100 |
 | goal-contract | pass | 77 | 781 |
 | project-anchor | pass | 85 | 803 |
 | starting-blocks | pass | 98 | 920 |

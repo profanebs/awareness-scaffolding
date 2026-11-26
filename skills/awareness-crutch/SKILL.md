@@ -95,6 +95,21 @@ node tools/qingming.mjs wean --with      # needed the tap
 
 After each tap, ask: would I have seen this without the crutch? If yes, count `--without`.
 
+## How you use it matters
+
+The same tap can be used in four ways:
+
+- **Mechanical**: it fires, you say “nothing”, you continue. Nothing happened.
+- **Compliant**: it fires, you answer, and the action changes only because you were asked.
+- **Meta**: it fires, you first notice whether this tap fits, what it is doing to your frame, and then adjust.
+- **Authored**: you change the prompts, the anchor, or the tap points based on experience.
+
+Do not give yourself a depth score. These labels are for noticing, not for a dashboard. Turn “depth” into a metric and the agent will start performing depth.
+
+A tap that knocks on nothing can be a good sign: it means you checked whether it applied instead of forcing an answer. Record it as `gap: false positive` if it helps; skip it if it does not.
+
+The goal is not zero taps. It is: use it better → notice without it → author it → need it less.
+
 ## Anti-patterns
 
 - Tapping before every sentence. It becomes performance.
